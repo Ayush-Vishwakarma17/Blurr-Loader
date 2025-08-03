@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+    transition: 0.3s ease;
+}
+.background{
+    background-image: url('https://images.unsplash.com/photo-1736860928537-d791e01485bf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh + 80px);
+    width: calc(100vw + 80px);
+    position: relative;
+    filter: blur(0px);
+    z-index: -1;
+    transition: 0.3s ease;
+}
+
+#navbar {
+    background-color: black;
+    height: 4rem;
+    position: relative;
+    top: 50%;
+    left: 0%;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.left{
+    color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    padding-left: 20px;
+}
+
+h4{
+    letter-spacing: 15px;
+}
+
+.right{
+    background-color: rgb(243, 124, 251);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 19px;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 0, 0);
+    font-size: 7rem;
+    transition: 0.3s ease;
+}
+h2{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: rgba(255, 255, 255, 0.896);
+    font-size: 5rem;
+    transition: 0.3s ease;
+}
+h3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgba(255, 255, 255, 0.406);
+    font-size: 34rem;
+    transition: 0.3s ease;
+    z-index: -1;
+}
+.btn{
+    text-decoration: none;
+    outline: none;
+    padding: 15px;
+    height: 4rem;
+    width: 8rem;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    font-size: 24px;
+    font-weight: 600;
+    color: pink;
+    transition: 0.3s ease;
+}
